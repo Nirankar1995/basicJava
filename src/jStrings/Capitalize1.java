@@ -9,11 +9,14 @@ public class Capitalize1 {
 		String s = Input.get_string();
 	    if (s != null)
 	    {
-	        for (int i = 0, n = s.length(); i < n; i++)
+	        /*for (int i = 0, n = s.length(); i < n; i++)
 	        {
 	        	Input.print(Character.toUpperCase(s.charAt(i)));
 	        }
-	        Input.print("\n");
+	        Input.print("\n");*/
+		    
+		s = s.toUpperCase();
+		System.out.println(s);
 	    }
 
 	}
